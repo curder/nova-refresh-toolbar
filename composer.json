@@ -1,0 +1,30 @@
+{
+    "name": "curder/nova-refresh-toolbar",
+    "description": "A Laravel Nova tool.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "laravel/nova": "2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Curder\\NovaRefreshToolbar\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Curder\\NovaRefreshToolbar\\ToolServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
